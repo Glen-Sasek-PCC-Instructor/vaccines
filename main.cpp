@@ -17,6 +17,9 @@ string convert(const string &input)
     return output;
 }
 
+// Compile and test
+// g++ main.cpp && for x in test*.txt; do ./a.out < $x; echo; done && rm ./a.out
+
 int main()
 {
 
